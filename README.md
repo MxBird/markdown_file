@@ -1,4 +1,3 @@
-hello
 #Just some other's blog or useful article  
 Some useful githup site:  
 * **Network programming with Go** 中文翻译版本<https://github.com/astaxie/NPWG_zh.git>  
