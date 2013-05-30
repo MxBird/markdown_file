@@ -65,3 +65,5 @@ git stash apply 应用最新的一个暂存，git stash drop stash@{0}来删掉�
 `git config --global core.autocrlf input` 签出时不转换，提交是把CRLF转换成LF  
 `git config --global core.autocrlf true` 如果服务器是linux，工作在windows，提交时自动地把行结束符CRLF转换成LF，而在签出代码时把LF转换成CRLF。   
 服务器跟工作都在windows上，设成false取消此功能  
+### 查看某个文件的历史修改记录
+`git log -p filename` filename替换成对应的文件即可
